@@ -1,11 +1,11 @@
 body {
     margin: 0;
-    font-family: Comic Sans, sans-serif;
+    font-family: Comic Sans;
     background: #FFFACD;
     color: #FF4500;
 }
 h1, h2 {
-    font-family: Sunny, serif;
+    font-family: Sunny;
     color: #FFD700;
 }
 a {
