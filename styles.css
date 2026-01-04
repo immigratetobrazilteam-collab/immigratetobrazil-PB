@@ -4,16 +4,13 @@ body {
     background: #FFFACD;
     color: #FF4500;
 }
-
 h1, h2 {
     font-family: Sunny, serif;
     color: #FFD700;
 }
-
 a {
     color: #FF6347;
 }
-
 section {
     padding: 3rem;
 }
