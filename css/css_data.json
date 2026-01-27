@@ -1,0 +1,93 @@
+{
+    "persona": {
+        "label": "Northeast Coast",
+        "tone": "Vibrant, sunny, cultural",
+        "visual_intensity": "medium",
+        "risk_tolerance": "expressive"
+    },
+    "tokens": {
+        "colors": {
+            "primary": "#4299e1",
+            "secondary": "#3182ce",
+            "accent": "#63b3ed",
+            "bg": "#ebf8ff",
+            "text": "#2c5282",
+            "hover": "#2c5282",
+            "active": "#2a4365",
+            "focus": "#4299e1",
+            "success": "#48bb78",
+            "error": "#f56565",
+            "warning": "#faf089",
+            "info": "#3182ce",
+            "neutral": "#bee3f8",
+            "link": "#3182ce",
+            "border": "#90cdf4",
+            "surface": "#bee3f8",
+            "gradient_bg": "linear-gradient(to top left, #ebf8ff, #bee3f8)"
+        },
+        "typography": {
+            "primary_font": "'Overpass', system-ui, sans-serif",
+            "base_size": "17px",
+            "line_height": "1.6",
+            "heading_sizes": [
+                "2.7rem",
+                "2.2rem",
+                "1.9rem",
+                "1.6rem",
+                "1.4rem",
+                "1.2rem"
+            ]
+        },
+        "spacing": {
+            "xs": "6px",
+            "s": "12px",
+            "m": "24px",
+            "l": "40px",
+            "xl": "56px",
+            "xxl": "80px"
+        },
+        "borders": {
+            "radius": "9px"
+        },
+        "shadows": {
+            "low": "0 5px 10px rgba(66,153,225,0.1)",
+            "medium": "0 12px 24px rgba(66,153,225,0.15)"
+        },
+        "motion": {
+            "timing": "0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55)"
+        },
+        "breakpoints": {
+            "tablet": "780px",
+            "desktop": "1050px"
+        },
+        "animations": {
+            "duration_base": 0.5,
+            "ease_default": "power3.inOut",
+            "intensity_mod": 1.0,
+            "risk_ease": "bounce.out",
+            "mobile_mod": 0.75
+        }
+    },
+    "page_customizations": {
+        "home": {
+            "hero_bg": "var(--color-surface)",
+            "cta_color": "var(--color-accent)",
+            "section_border": "var(--color-border)"
+        },
+        "about": {
+            "intro_text": "var(--color-text)",
+            "section_border": "var(--color-border)",
+            "hero_bg": "var(--color-neutral)"
+        },
+        "services": {
+            "overview_bg": "var(--color-surface)",
+            "item_accent": "var(--color-accent)",
+            "list_color": "var(--color-info)"
+        },
+        "contact": {
+            "form_bg": "var(--color-surface)",
+            "submit_btn": "var(--color-primary)",
+            "input_border": "var(--color-border)"
+        }
+    }
+}
