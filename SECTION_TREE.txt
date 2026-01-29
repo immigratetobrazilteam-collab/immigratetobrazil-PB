@@ -1,1098 +1,664 @@
-pb/
+PB/
 ├─ index.html
-│  ├─ pb-index-section-immigrate-to-paraba
-│  ├─ pb-index-form-immigrate-to-paraba
-│  ├─ pb-index-section-state-vibe
-│  ├─ pb-index-section-quick-facts-snapshot
-│  ├─ pb-index-section-paraba-map
-│  ├─ pb-index-section-cost-of-living-paraba
-│  ├─ pb-index-section-government-context
-│  ├─ pb-index-hero-immigration-notes
-│  ├─ pb-index-list-common-applicant-profiles
-│  ├─ pb-index-list-economic-drivers
-│  ├─ pb-index-section-demographics
-│  ├─ pb-index-section-regional-challenges
-│  ├─ pb-index-section-regional-opportunities
-│  ├─ pb-index-section-culture-daily-life
-│  ├─ pb-index-list-local-language-expressions
-│  ├─ pb-index-list-food-cuisine
-│  ├─ pb-index-list-festivals-traditions
-│  ├─ pb-index-list-music-artistic-expression
-│  ├─ pb-index-list-sports-recreation
-│  ├─ pb-index-list-landmarks-historical-sites
-│  ├─ pb-index-list-natural-features
-│  ├─ pb-index-list-parks-protected-areas
-│  ├─ pb-index-list-museums-cultural-institutions
-│  ├─ pb-index-section-image-gallery
-│  ├─ pb-index-section-useful-government-links
-│  ├─ pb-index-hero-federal-police-immigration-links
-│  ├─ pb-index-section-external-references
-│  ├─ pb-index-list-immigration-services-overview
-│  ├─ pb-index-section-why-immigrate-here
-│  ├─ pb-index-section-legal-guidance-disclaimers
-│  ├─ contact
-│  ├─ pb-index-list-travel-services
-│  ├─ pb-index-list-how-the-process-works
-│  ├─ pb-index-section--frequently-asked-questions-about-living-in-paraba-
-│  ├─ contact
+│  ├─ pb-index-section--map
+│  ├─ pb-index-section-frequently-asked-questions-about-living-in-
+│  ├─ pb-index-contact
 
-├─ contact-cta.html
-│  ├─ pb-contactcta-section-get-started-in-paraba
+├─ footer.html
+│  ├─ main-footer
 
-├─ renouncing-citizenship.html
-│  ├─ pb-renouncingcitizenship-form-renounce-brazilian-citizenship
-│  ├─ pb-renouncingcitizenship-list-quick-facts
-│  ├─ pb-renouncingcitizenship-list-common-challenges-applicants-face
-│  ├─ pb-renouncingcitizenship-list-how-we-solve-these-challenges
-│  ├─ pb-renouncingcitizenship-section-renunciation-overview
-│  ├─ pb-renouncingcitizenship-form-who-is-this-for
-│  ├─ pb-renouncingcitizenship-list-required-documents
-│  ├─ pb-renouncingcitizenship-list-process
-│  ├─ pb-renouncingcitizenship-section-timelines-deadlines
-│  ├─ pb-renouncingcitizenship-section-fees-costs
-│  ├─ pb-renouncingcitizenship-list-risks-common-mistakes
-│  ├─ pb-renouncingcitizenship-section-diy-vs-professional-assistance
-│  ├─ pb-renouncingcitizenship-section-paraba-specific-context
-│  ├─ pb-renouncingcitizenship-section-what-our-clients-say
-│  ├─ pb-renouncingcitizenship-section-frequently-asked-questions
-│  ├─ pb-renouncingcitizenship-section-international-support
-│  ├─ application-form
-│  ├─ pb-renouncingcitizenship-list-our-credentials
-│  ├─ pb-renouncingcitizenship-list-related-services
-│  ├─ pb-renouncingcitizenship-section-youre-in-good-hands
-│  ├─ pb-renouncingcitizenship-section-21
+├─ header.html
+│  ├─ main-header
 
-├─ provisional.html
-│  ├─ pb-provisional-form-provisional-naturalisation-in-brazil-for-minors
-│  ├─ pb-provisional-list-quick-facts
-│  ├─ pb-provisional-list-common-challenges-applicants-face
-│  ├─ pb-provisional-list-how-we-solve-these-challenges
-│  ├─ pb-provisional-section-naturalisation-overview
-│  ├─ pb-provisional-form-who-is-this-naturalisation-for
-│  ├─ pb-provisional-list-required-documents
-│  ├─ pb-provisional-list-application-process
-│  ├─ pb-provisional-section-timelines-deadlines
-│  ├─ pb-provisional-section-fees-costs
-│  ├─ pb-provisional-list-risks-common-mistakes
-│  ├─ pb-provisional-section-diy-vs-professional-assistance
-│  ├─ pb-provisional-section-paraba-specific-context
-│  ├─ pb-provisional-section-what-our-clients-say
-│  ├─ pb-provisional-section-frequently-asked-questions
-│  ├─ pb-provisional-section-international-support
-│  ├─ application-form
-│  ├─ pb-provisional-list-our-credentials
-│  ├─ pb-provisional-list-related-services
-│  ├─ pb-provisional-section-youre-in-good-hands
-│  ├─ pb-provisional-section-21
-
-├─ special.html
-│  ├─ pb-special-form-special-naturalisation-in-brazil-for-particular-cases
-│  ├─ pb-special-list-quick-facts
-│  ├─ pb-special-list-common-challenges-applicants-face
-│  ├─ pb-special-list-how-we-solve-these-challenges
-│  ├─ pb-special-section-naturalisation-overview
-│  ├─ pb-special-form-who-is-this-naturalisation-for
-│  ├─ pb-special-list-required-documents
-│  ├─ pb-special-list-application-process
-│  ├─ pb-special-section-timelines-deadlines
-│  ├─ pb-special-section-fees-costs
-│  ├─ pb-special-list-risks-common-mistakes
-│  ├─ pb-special-section-diy-vs-professional-assistance
-│  ├─ pb-special-section-paraba-specific-context
-│  ├─ pb-special-section-what-our-clients-say
-│  ├─ pb-special-section-frequently-asked-questions
-│  ├─ pb-special-section-international-support
-│  ├─ application-form
-│  ├─ pb-special-list-our-credentials
-│  ├─ pb-special-list-related-services
-│  ├─ pb-special-section-youre-in-good-hands
-│  ├─ pb-special-section-21
-
-├─ ordinary.html
-│  ├─ pb-ordinary-form-obtain-brazilian-citizenship-through-ordinary-naturalisation
-│  ├─ pb-ordinary-list-quick-facts
-│  ├─ pb-ordinary-list-common-challenges-applicants-face
-│  ├─ pb-ordinary-list-how-we-solve-these-challenges
-│  ├─ pb-ordinary-section-naturalisation-overview
-│  ├─ pb-ordinary-form-who-is-this-naturalisation-for
-│  ├─ pb-ordinary-list-required-documents
-│  ├─ pb-ordinary-list-application-process
-│  ├─ pb-ordinary-section-timelines-deadlines
-│  ├─ pb-ordinary-section-fees-costs
-│  ├─ pb-ordinary-list-risks-common-mistakes
-│  ├─ pb-ordinary-section-diy-vs-professional-assistance
-│  ├─ pb-ordinary-section-paraba-specific-context
-│  ├─ pb-ordinary-section-what-our-clients-say
-│  ├─ pb-ordinary-section-frequently-asked-questions
-│  ├─ pb-ordinary-section-international-support
-│  ├─ application-form
-│  ├─ pb-ordinary-list-our-credentials
-│  ├─ pb-ordinary-list-related-services
-│  ├─ pb-ordinary-section-youre-in-good-hands
-│  ├─ pb-ordinary-section-21
-
-├─ extraordinary.html
-│  ├─ pb-extraordinary-form-extraordinary-naturalisation-in-brazil-for-contributions
-│  ├─ pb-extraordinary-list-quick-facts
-│  ├─ pb-extraordinary-list-common-challenges-applicants-face
-│  ├─ pb-extraordinary-list-how-we-solve-these-challenges
-│  ├─ pb-extraordinary-section-naturalisation-overview
-│  ├─ pb-extraordinary-form-who-is-this-naturalisation-for
-│  ├─ pb-extraordinary-list-required-documents
-│  ├─ pb-extraordinary-list-application-process
-│  ├─ pb-extraordinary-section-timelines-deadlines
-│  ├─ pb-extraordinary-section-fees-costs
-│  ├─ pb-extraordinary-list-risks-common-mistakes
-│  ├─ pb-extraordinary-section-diy-vs-professional-assistance
-│  ├─ pb-extraordinary-section-paraba-specific-context
-│  ├─ pb-extraordinary-section-what-our-clients-say
-│  ├─ pb-extraordinary-section-frequently-asked-questions
-│  ├─ pb-extraordinary-section-international-support
-│  ├─ application-form
-│  ├─ pb-extraordinary-list-our-credentials
-│  ├─ pb-extraordinary-list-related-services
-│  ├─ pb-extraordinary-section-youre-in-good-hands
-│  ├─ pb-extraordinary-section-21
-
-├─ reacquisition-citizenship.html
-│  ├─ pb-reacquisitioncitizenship-form-reacquire-brazilian-citizenship
-│  ├─ pb-reacquisitioncitizenship-list-quick-facts
-│  ├─ pb-reacquisitioncitizenship-list-common-challenges-applicants-face
-│  ├─ pb-reacquisitioncitizenship-list-how-we-solve-these-challenges
-│  ├─ pb-reacquisitioncitizenship-section-reacquisition-overview
-│  ├─ pb-reacquisitioncitizenship-form-who-is-this-for
-│  ├─ pb-reacquisitioncitizenship-list-required-documents
-│  ├─ pb-reacquisitioncitizenship-list-process
-│  ├─ pb-reacquisitioncitizenship-section-timelines-deadlines
-│  ├─ pb-reacquisitioncitizenship-section-fees-costs
-│  ├─ pb-reacquisitioncitizenship-list-risks-common-mistakes
-│  ├─ pb-reacquisitioncitizenship-section-diy-vs-professional-assistance
-│  ├─ pb-reacquisitioncitizenship-section-paraba-specific-context
-│  ├─ pb-reacquisitioncitizenship-section-what-our-clients-say
-│  ├─ pb-reacquisitioncitizenship-section-frequently-asked-questions
-│  ├─ pb-reacquisitioncitizenship-section-international-support
-│  ├─ application-form
-│  ├─ pb-reacquisitioncitizenship-list-our-credentials
-│  ├─ pb-reacquisitioncitizenship-list-related-services
-│  ├─ pb-reacquisitioncitizenship-section-youre-in-good-hands
-│  ├─ pb-reacquisitioncitizenship-section-21
-
-├─ scientific-research.html
-│  ├─ pb-scientificresearch-form-conduct-scientific-research-with-residency-in-brazil
-│  ├─ pb-scientificresearch-list-quick-facts
-│  ├─ pb-scientificresearch-list-common-challenges-applicants-face
-│  ├─ pb-scientificresearch-list-how-we-solve-these-challenges
-│  ├─ pb-scientificresearch-section-residency-overview
-│  ├─ pb-scientificresearch-form-who-is-this-residency-for
-│  ├─ pb-scientificresearch-list-required-documents
-│  ├─ pb-scientificresearch-list-application-process
-│  ├─ pb-scientificresearch-section-timelines-deadlines
-│  ├─ pb-scientificresearch-section-fees-costs
-│  ├─ pb-scientificresearch-list-risks-common-mistakes
-│  ├─ pb-scientificresearch-section-diy-vs-professional-assistance
-│  ├─ pb-scientificresearch-section-paraba-specific-context
-│  ├─ pb-scientificresearch-section-what-our-clients-say
-│  ├─ pb-scientificresearch-section-frequently-asked-questions
-│  ├─ pb-scientificresearch-section-international-support
-│  ├─ application-form
-│  ├─ pb-scientificresearch-list-our-credentials
-│  ├─ pb-scientificresearch-list-related-services
-│  ├─ pb-scientificresearch-section-youre-in-good-hands
-│  ├─ pb-scientificresearch-section-21
-
-├─ study.html
-│  ├─ pb-study-form-study-in-brazil-with-study-residency
-│  ├─ pb-study-list-quick-facts
-│  ├─ pb-study-list-common-challenges-applicants-face
-│  ├─ pb-study-list-how-we-solve-these-challenges
-│  ├─ pb-study-section-residency-overview
-│  ├─ pb-study-form-who-is-this-residency-for
-│  ├─ pb-study-list-required-documents
-│  ├─ pb-study-list-application-process
-│  ├─ pb-study-section-timelines-deadlines
-│  ├─ pb-study-section-fees-costs
-│  ├─ pb-study-list-risks-common-mistakes
-│  ├─ pb-study-section-diy-vs-professional-assistance
-│  ├─ pb-study-section-paraba-specific-context
-│  ├─ pb-study-section-what-our-clients-say
-│  ├─ pb-study-section-frequently-asked-questions
-│  ├─ pb-study-section-international-support
-│  ├─ application-form
-│  ├─ pb-study-list-our-credentials
-│  ├─ pb-study-list-related-services
-│  ├─ pb-study-section-youre-in-good-hands
-│  ├─ pb-study-section-21
-
-├─ educational-exchange.html
-│  ├─ pb-educationalexchange-form-participate-in-educational-exchanges-with-residency-in-brazil
-│  ├─ pb-educationalexchange-list-quick-facts
-│  ├─ pb-educationalexchange-list-common-challenges-applicants-face
-│  ├─ pb-educationalexchange-list-how-we-solve-these-challenges
-│  ├─ pb-educationalexchange-section-residency-overview
-│  ├─ pb-educationalexchange-form-who-is-this-residency-for
-│  ├─ pb-educationalexchange-list-required-documents
-│  ├─ pb-educationalexchange-list-application-process
-│  ├─ pb-educationalexchange-section-timelines-deadlines
-│  ├─ pb-educationalexchange-section-fees-costs
-│  ├─ pb-educationalexchange-list-risks-common-mistakes
-│  ├─ pb-educationalexchange-section-diy-vs-professional-assistance
-│  ├─ pb-educationalexchange-section-paraba-specific-context
-│  ├─ pb-educationalexchange-section-what-our-clients-say
-│  ├─ pb-educationalexchange-section-frequently-asked-questions
-│  ├─ pb-educationalexchange-section-international-support
-│  ├─ application-form
-│  ├─ pb-educationalexchange-list-our-credentials
-│  ├─ pb-educationalexchange-list-related-services
-│  ├─ pb-educationalexchange-section-youre-in-good-hands
-│  ├─ pb-educationalexchange-section-21
-
-├─ humanitarian.html
-│  ├─ pb-humanitarian-form-humanitarian-residency-in-brazil-for-protection
-│  ├─ pb-humanitarian-list-quick-facts
-│  ├─ pb-humanitarian-list-common-challenges-applicants-face
-│  ├─ pb-humanitarian-list-how-we-solve-these-challenges
-│  ├─ pb-humanitarian-section-residency-overview
-│  ├─ pb-humanitarian-form-who-is-this-residency-for
-│  ├─ pb-humanitarian-list-required-documents
-│  ├─ pb-humanitarian-list-application-process
-│  ├─ pb-humanitarian-section-timelines-deadlines
-│  ├─ pb-humanitarian-section-fees-costs
-│  ├─ pb-humanitarian-list-risks-common-mistakes
-│  ├─ pb-humanitarian-section-diy-vs-professional-assistance
-│  ├─ pb-humanitarian-section-paraba-specific-context
-│  ├─ pb-humanitarian-section-what-our-clients-say
-│  ├─ pb-humanitarian-section-frequently-asked-questions
-│  ├─ pb-humanitarian-section-international-support
-│  ├─ application-form
-│  ├─ pb-humanitarian-list-our-credentials
-│  ├─ pb-humanitarian-list-related-services
-│  ├─ pb-humanitarian-section-youre-in-good-hands
-│  ├─ pb-humanitarian-section-21
-
-├─ digital-nomad.html
-│  ├─ pb-digitalnomad-form-digital-nomad-residency-in-brazil
-│  ├─ pb-digitalnomad-list-quick-facts
-│  ├─ pb-digitalnomad-list-common-challenges-applicants-face
-│  ├─ pb-digitalnomad-list-how-we-solve-these-challenges
-│  ├─ pb-digitalnomad-section-residency-overview
-│  ├─ pb-digitalnomad-form-who-is-this-residency-for
-│  ├─ pb-digitalnomad-list-required-documents
-│  ├─ pb-digitalnomad-list-application-process
-│  ├─ pb-digitalnomad-section-timelines-deadlines
-│  ├─ pb-digitalnomad-section-fees-costs
-│  ├─ pb-digitalnomad-list-risks-common-mistakes
-│  ├─ pb-digitalnomad-section-diy-vs-professional-assistance
-│  ├─ pb-digitalnomad-section-paraba-specific-context
-│  ├─ pb-digitalnomad-section-what-our-clients-say
-│  ├─ pb-digitalnomad-section-frequently-asked-questions
-│  ├─ pb-digitalnomad-section-international-support
-│  ├─ application-form
-│  ├─ pb-digitalnomad-list-our-credentials
-│  ├─ pb-digitalnomad-list-related-services
-│  ├─ pb-digitalnomad-section-youre-in-good-hands
-│  ├─ pb-digitalnomad-section-21
-
-├─ family-reunion.html
-│  ├─ pb-familyreunion-form-reunite-with-family-in-brazil-with-family-reunion-residency
-│  ├─ pb-familyreunion-list-quick-facts
-│  ├─ pb-familyreunion-list-common-challenges-applicants-face
-│  ├─ pb-familyreunion-list-how-we-solve-these-challenges
-│  ├─ pb-familyreunion-section-residency-overview
-│  ├─ pb-familyreunion-form-who-is-this-residency-for
-│  ├─ pb-familyreunion-list-required-documents
-│  ├─ pb-familyreunion-list-application-process
-│  ├─ pb-familyreunion-section-timelines-deadlines
-│  ├─ pb-familyreunion-section-fees-costs
-│  ├─ pb-familyreunion-list-risks-common-mistakes
-│  ├─ pb-familyreunion-section-diy-vs-professional-assistance
-│  ├─ pb-familyreunion-section-paraba-specific-context
-│  ├─ pb-familyreunion-section-what-our-clients-say
-│  ├─ pb-familyreunion-section-frequently-asked-questions
-│  ├─ pb-familyreunion-section-international-support
-│  ├─ application-form
-│  ├─ pb-familyreunion-list-our-credentials
-│  ├─ pb-familyreunion-list-related-services
-│  ├─ pb-familyreunion-section-youre-in-good-hands
-│  ├─ pb-familyreunion-section-21
-
-├─ mercosul.html
-│  ├─ pb-mercosul-form-residency-for-mercosul-citizens-in-brazil
-│  ├─ pb-mercosul-list-quick-facts
-│  ├─ pb-mercosul-list-common-challenges-applicants-face
-│  ├─ pb-mercosul-list-how-we-solve-these-challenges
-│  ├─ pb-mercosul-section-residency-overview
-│  ├─ pb-mercosul-form-who-is-this-residency-for
-│  ├─ pb-mercosul-list-required-documents
-│  ├─ pb-mercosul-list-application-process
-│  ├─ pb-mercosul-section-timelines-deadlines
-│  ├─ pb-mercosul-section-fees-costs
-│  ├─ pb-mercosul-list-risks-common-mistakes
-│  ├─ pb-mercosul-section-diy-vs-professional-assistance
-│  ├─ pb-mercosul-section-paraba-specific-context
-│  ├─ pb-mercosul-section-what-our-clients-say
-│  ├─ pb-mercosul-section-frequently-asked-questions
-│  ├─ pb-mercosul-section-international-support
-│  ├─ application-form
-│  ├─ pb-mercosul-list-our-credentials
-│  ├─ pb-mercosul-list-related-services
-│  ├─ pb-mercosul-section-youre-in-good-hands
-│  ├─ pb-mercosul-section-21
-
-├─ retiree.html
-│  ├─ pb-retiree-form-retire-in-brazil-with-retiree-residency
-│  ├─ pb-retiree-list-quick-facts
-│  ├─ pb-retiree-list-common-challenges-applicants-face
-│  ├─ pb-retiree-list-how-we-solve-these-challenges
-│  ├─ pb-retiree-section-residency-overview
-│  ├─ pb-retiree-form-who-is-this-residency-for
-│  ├─ pb-retiree-list-required-documents
-│  ├─ pb-retiree-list-application-process
-│  ├─ pb-retiree-section-timelines-deadlines
-│  ├─ pb-retiree-section-fees-costs
-│  ├─ pb-retiree-list-risks-common-mistakes
-│  ├─ pb-retiree-section-diy-vs-professional-assistance
-│  ├─ pb-retiree-section-paraba-specific-context
-│  ├─ pb-retiree-section-what-our-clients-say
-│  ├─ pb-retiree-section-frequently-asked-questions
-│  ├─ pb-retiree-section-international-support
-│  ├─ application-form
-│  ├─ pb-retiree-list-our-credentials
-│  ├─ pb-retiree-list-related-services
-│  ├─ pb-retiree-section-youre-in-good-hands
-│  ├─ pb-retiree-section-21
-
-├─ volunteer.html
-│  ├─ pb-volunteer-form-volunteer-in-brazil-with-volunteer-residency
-│  ├─ pb-volunteer-list-quick-facts
-│  ├─ pb-volunteer-list-common-challenges-applicants-face
-│  ├─ pb-volunteer-list-how-we-solve-these-challenges
-│  ├─ pb-volunteer-section-residency-overview
-│  ├─ pb-volunteer-form-who-is-this-residency-for
-│  ├─ pb-volunteer-list-required-documents
-│  ├─ pb-volunteer-list-application-process
-│  ├─ pb-volunteer-section-timelines-deadlines
-│  ├─ pb-volunteer-section-fees-costs
-│  ├─ pb-volunteer-list-risks-common-mistakes
-│  ├─ pb-volunteer-section-diy-vs-professional-assistance
-│  ├─ pb-volunteer-section-paraba-specific-context
-│  ├─ pb-volunteer-section-what-our-clients-say
-│  ├─ pb-volunteer-section-frequently-asked-questions
-│  ├─ pb-volunteer-section-international-support
-│  ├─ application-form
-│  ├─ pb-volunteer-list-our-credentials
-│  ├─ pb-volunteer-list-related-services
-│  ├─ pb-volunteer-section-youre-in-good-hands
-│  ├─ pb-volunteer-section-21
-
-├─ skilled-worker.html
-│  ├─ pb-skilledworker-form-skilled-worker-residency-in-brazil-for-professionals
-│  ├─ pb-skilledworker-list-quick-facts
-│  ├─ pb-skilledworker-list-common-challenges-applicants-face
-│  ├─ pb-skilledworker-list-how-we-solve-these-challenges
-│  ├─ pb-skilledworker-section-residency-overview
-│  ├─ pb-skilledworker-form-who-is-this-residency-for
-│  ├─ pb-skilledworker-list-required-documents
-│  ├─ pb-skilledworker-list-application-process
-│  ├─ pb-skilledworker-section-timelines-deadlines
-│  ├─ pb-skilledworker-section-fees-costs
-│  ├─ pb-skilledworker-list-risks-common-mistakes
-│  ├─ pb-skilledworker-section-diy-vs-professional-assistance
-│  ├─ pb-skilledworker-section-paraba-specific-context
-│  ├─ pb-skilledworker-section-what-our-clients-say
-│  ├─ pb-skilledworker-section-frequently-asked-questions
-│  ├─ pb-skilledworker-section-international-support
-│  ├─ application-form
-│  ├─ pb-skilledworker-list-our-credentials
-│  ├─ pb-skilledworker-list-related-services
-│  ├─ pb-skilledworker-section-youre-in-good-hands
-│  ├─ pb-skilledworker-section-21
-
-├─ religious.html
-│  ├─ pb-religious-form-religious-residency-in-brazil-for-missions
-│  ├─ pb-religious-list-quick-facts
-│  ├─ pb-religious-list-common-challenges-applicants-face
-│  ├─ pb-religious-list-how-we-solve-these-challenges
-│  ├─ pb-religious-section-residency-overview
-│  ├─ pb-religious-form-who-is-this-residency-for
-│  ├─ pb-religious-list-required-documents
-│  ├─ pb-religious-list-application-process
-│  ├─ pb-religious-section-timelines-deadlines
-│  ├─ pb-religious-section-fees-costs
-│  ├─ pb-religious-list-risks-common-mistakes
-│  ├─ pb-religious-section-diy-vs-professional-assistance
-│  ├─ pb-religious-section-paraba-specific-context
-│  ├─ pb-religious-section-what-our-clients-say
-│  ├─ pb-religious-section-frequently-asked-questions
-│  ├─ pb-religious-section-international-support
-│  ├─ application-form
-│  ├─ pb-religious-list-our-credentials
-│  ├─ pb-religious-list-related-services
-│  ├─ pb-religious-section-youre-in-good-hands
-│  ├─ pb-religious-section-21
-
-├─ investor.html
-│  ├─ pb-investor-form-gain-residency-in-brazil-through-investment
-│  ├─ pb-investor-list-quick-facts
-│  ├─ pb-investor-list-common-challenges-applicants-face
-│  ├─ pb-investor-list-how-we-solve-these-challenges
-│  ├─ pb-investor-section-residency-overview
-│  ├─ pb-investor-form-who-is-this-residency-for
-│  ├─ pb-investor-list-required-documents
-│  ├─ pb-investor-list-application-process
-│  ├─ pb-investor-section-timelines-deadlines
-│  ├─ pb-investor-section-fees-costs
-│  ├─ pb-investor-list-risks-common-mistakes
-│  ├─ pb-investor-section-diy-vs-professional-assistance
-│  ├─ pb-investor-section-paraba-specific-context
-│  ├─ pb-investor-section-what-our-clients-say
-│  ├─ pb-investor-section-frequently-asked-questions
-│  ├─ pb-investor-section-international-support
-│  ├─ application-form
-│  ├─ pb-investor-list-our-credentials
-│  ├─ pb-investor-list-related-services
-│  ├─ pb-investor-section-youre-in-good-hands
-│  ├─ pb-investor-section-21
-
-├─ health-treatment.html
-│  ├─ pb-healthtreatment-form-extend-your-stay-for-health-treatment-in-brazil
-│  ├─ pb-healthtreatment-list-quick-facts
-│  ├─ pb-healthtreatment-list-common-challenges-applicants-face
-│  ├─ pb-healthtreatment-list-how-we-solve-these-challenges
-│  ├─ pb-healthtreatment-section-residency-overview
-│  ├─ pb-healthtreatment-form-who-is-this-residency-for
-│  ├─ pb-healthtreatment-list-required-documents
-│  ├─ pb-healthtreatment-list-application-process
-│  ├─ pb-healthtreatment-section-timelines-deadlines
-│  ├─ pb-healthtreatment-section-fees-costs
-│  ├─ pb-healthtreatment-list-risks-common-mistakes
-│  ├─ pb-healthtreatment-section-diy-vs-professional-assistance
-│  ├─ pb-healthtreatment-section-paraba-specific-context
-│  ├─ pb-healthtreatment-section-what-our-clients-say
-│  ├─ pb-healthtreatment-section-frequently-asked-questions
-│  ├─ pb-healthtreatment-section-international-support
-│  ├─ application-form
-│  ├─ pb-healthtreatment-list-our-credentials
-│  ├─ pb-healthtreatment-list-related-services
-│  ├─ pb-healthtreatment-section-youre-in-good-hands
-│  ├─ pb-healthtreatment-section-21
-
-├─ cplp.html
-│  ├─ pb-cplp-form-residency-for-cplp-citizens-in-brazil
-│  ├─ pb-cplp-list-quick-facts
-│  ├─ pb-cplp-list-common-challenges-applicants-face
-│  ├─ pb-cplp-list-how-we-solve-these-challenges
-│  ├─ pb-cplp-section-residency-overview
-│  ├─ pb-cplp-form-who-is-this-residency-for
-│  ├─ pb-cplp-list-required-documents
-│  ├─ pb-cplp-list-application-process
-│  ├─ pb-cplp-section-timelines-deadlines
-│  ├─ pb-cplp-section-fees-costs
-│  ├─ pb-cplp-list-risks-common-mistakes
-│  ├─ pb-cplp-section-diy-vs-professional-assistance
-│  ├─ pb-cplp-section-paraba-specific-context
-│  ├─ pb-cplp-section-what-our-clients-say
-│  ├─ pb-cplp-section-frequently-asked-questions
-│  ├─ pb-cplp-section-international-support
-│  ├─ application-form
-│  ├─ pb-cplp-list-our-credentials
-│  ├─ pb-cplp-list-related-services
-│  ├─ pb-cplp-section-youre-in-good-hands
-│  ├─ pb-cplp-section-21
-
-├─ youth-exchange.html
-│  ├─ pb-youthexchange-form-youth-exchange-residency-in-brazil-for-programs
-│  ├─ pb-youthexchange-list-quick-facts
-│  ├─ pb-youthexchange-list-common-challenges-applicants-face
-│  ├─ pb-youthexchange-list-how-we-solve-these-challenges
-│  ├─ pb-youthexchange-section-residency-overview
-│  ├─ pb-youthexchange-form-who-is-this-residency-for
-│  ├─ pb-youthexchange-list-required-documents
-│  ├─ pb-youthexchange-list-application-process
-│  ├─ pb-youthexchange-section-timelines-deadlines
-│  ├─ pb-youthexchange-section-fees-costs
-│  ├─ pb-youthexchange-list-risks-common-mistakes
-│  ├─ pb-youthexchange-section-diy-vs-professional-assistance
-│  ├─ pb-youthexchange-section-paraba-specific-context
-│  ├─ pb-youthexchange-section-what-our-clients-say
-│  ├─ pb-youthexchange-section-frequently-asked-questions
-│  ├─ pb-youthexchange-section-international-support
-│  ├─ application-form
-│  ├─ pb-youthexchange-list-our-credentials
-│  ├─ pb-youthexchange-list-related-services
-│  ├─ pb-youthexchange-section-youre-in-good-hands
-│  ├─ pb-youthexchange-section-21
-
-├─ work.html
-│  ├─ pb-work-form-work-and-reside-in-brazil-with-work-residency
-│  ├─ pb-work-list-quick-facts
-│  ├─ pb-work-list-common-challenges-applicants-face
-│  ├─ pb-work-list-how-we-solve-these-challenges
-│  ├─ pb-work-section-residency-overview
-│  ├─ pb-work-form-who-is-this-residency-for
-│  ├─ pb-work-list-required-documents
-│  ├─ pb-work-list-application-process
-│  ├─ pb-work-section-timelines-deadlines
-│  ├─ pb-work-section-fees-costs
-│  ├─ pb-work-list-risks-common-mistakes
-│  ├─ pb-work-section-diy-vs-professional-assistance
-│  ├─ pb-work-section-paraba-specific-context
-│  ├─ pb-work-section-what-our-clients-say
-│  ├─ pb-work-section-frequently-asked-questions
-│  ├─ pb-work-section-international-support
-│  ├─ application-form
-│  ├─ pb-work-list-our-credentials
-│  ├─ pb-work-list-related-services
-│  ├─ pb-work-section-youre-in-good-hands
-│  ├─ pb-work-section-21
-
-├─ startup.html
-│  ├─ pb-startup-form-launch-your-startup-in-brazil-with-the-startup-visa
-│  ├─ pb-startup-list-quick-facts
-│  ├─ pb-startup-list-common-challenges-applicants-face
-│  ├─ pb-startup-list-how-we-solve-these-challenges
-│  ├─ pb-startup-section-visa-overview
-│  ├─ pb-startup-form-who-is-this-visa-for
-│  ├─ pb-startup-list-required-documents
-│  ├─ pb-startup-list-application-process
-│  ├─ pb-startup-section-timelines-deadlines
-│  ├─ pb-startup-section-fees-costs
-│  ├─ pb-startup-list-risks-common-mistakes
-│  ├─ pb-startup-section-diy-vs-professional-assistance
-│  ├─ pb-startup-section-paraba-specific-context
-│  ├─ pb-startup-section-what-our-clients-say
-│  ├─ pb-startup-section-frequently-asked-questions
-│  ├─ pb-startup-section-international-support
-│  ├─ application-form
-│  ├─ pb-startup-list-our-credentials
-│  ├─ pb-startup-list-related-services
-│  ├─ pb-startup-section-youre-in-good-hands
-│  ├─ pb-startup-section-21
-
-├─ family.html
-│  ├─ pb-family-form-reunite-with-family-in-brazil-with-the-family-visa
-│  ├─ pb-family-list-quick-facts
-│  ├─ pb-family-list-common-challenges-applicants-face
-│  ├─ pb-family-list-how-we-solve-these-challenges
-│  ├─ pb-family-section-visa-overview
-│  ├─ pb-family-form-who-is-this-visa-for
-│  ├─ pb-family-list-required-documents
-│  ├─ pb-family-list-application-process
-│  ├─ pb-family-section-timelines-deadlines
-│  ├─ pb-family-section-fees-costs
-│  ├─ pb-family-list-risks-common-mistakes
-│  ├─ pb-family-section-diy-vs-professional-assistance
-│  ├─ pb-family-section-paraba-specific-context
-│  ├─ pb-family-section-what-our-clients-say
-│  ├─ pb-family-section-frequently-asked-questions
-│  ├─ pb-family-section-international-support
-│  ├─ application-form
-│  ├─ pb-family-list-our-credentials
-│  ├─ pb-family-list-related-services
-│  ├─ pb-family-section-youre-in-good-hands
-│  ├─ pb-family-section-21
-
-├─ sports.html
-│  ├─ pb-sports-form-compete-in-brazil-with-the-sports-visa
-│  ├─ pb-sports-list-quick-facts
-│  ├─ pb-sports-list-common-challenges-applicants-face
-│  ├─ pb-sports-list-how-we-solve-these-challenges
-│  ├─ pb-sports-section-visa-overview
-│  ├─ pb-sports-form-who-is-this-visa-for
-│  ├─ pb-sports-list-required-documents
-│  ├─ pb-sports-list-application-process
-│  ├─ pb-sports-section-timelines-deadlines
-│  ├─ pb-sports-section-fees-costs
-│  ├─ pb-sports-list-risks-common-mistakes
-│  ├─ pb-sports-section-diy-vs-professional-assistance
-│  ├─ pb-sports-section-paraba-specific-context
-│  ├─ pb-sports-section-what-our-clients-say
-│  ├─ pb-sports-section-frequently-asked-questions
-│  ├─ pb-sports-section-international-support
-│  ├─ application-form
-│  ├─ pb-sports-list-our-credentials
-│  ├─ pb-sports-list-related-services
-│  ├─ pb-sports-section-youre-in-good-hands
-│  ├─ pb-sports-section-21
-
-├─ medical.html
-│  ├─ pb-medical-form-receive-medical-treatment-in-brazil-with-the-medical-visa
-│  ├─ pb-medical-list-quick-facts
-│  ├─ pb-medical-list-common-challenges-applicants-face
-│  ├─ pb-medical-list-how-we-solve-these-challenges
-│  ├─ pb-medical-section-visa-overview
-│  ├─ pb-medical-form-who-is-this-visa-for
-│  ├─ pb-medical-list-required-documents
-│  ├─ pb-medical-list-application-process
-│  ├─ pb-medical-section-timelines-deadlines
-│  ├─ pb-medical-section-fees-costs
-│  ├─ pb-medical-list-risks-common-mistakes
-│  ├─ pb-medical-section-diy-vs-professional-assistance
-│  ├─ pb-medical-section-paraba-specific-context
-│  ├─ pb-medical-section-what-our-clients-say
-│  ├─ pb-medical-section-frequently-asked-questions
-│  ├─ pb-medical-section-international-support
-│  ├─ application-form
-│  ├─ pb-medical-list-our-credentials
-│  ├─ pb-medical-list-related-services
-│  ├─ pb-medical-section-youre-in-good-hands
-│  ├─ pb-medical-section-21
-
-├─ tourist.html
-│  ├─ pb-tourist-form-visit-brazil-as-a-tourist-with-the-tourist-visa
-│  ├─ pb-tourist-list-quick-facts
-│  ├─ pb-tourist-list-common-challenges-applicants-face
-│  ├─ pb-tourist-list-how-we-solve-these-challenges
-│  ├─ pb-tourist-section-visa-overview
-│  ├─ pb-tourist-form-who-is-this-visa-for
-│  ├─ pb-tourist-list-required-documents
-│  ├─ pb-tourist-list-application-process
-│  ├─ pb-tourist-section-timelines-deadlines
-│  ├─ pb-tourist-section-fees-costs
-│  ├─ pb-tourist-list-risks-common-mistakes
-│  ├─ pb-tourist-section-diy-vs-professional-assistance
-│  ├─ pb-tourist-section-paraba-specific-context
-│  ├─ pb-tourist-section-what-our-clients-say
-│  ├─ pb-tourist-section-frequently-asked-questions
-│  ├─ pb-tourist-section-international-support
-│  ├─ application-form
-│  ├─ pb-tourist-list-our-credentials
-│  ├─ pb-tourist-list-related-services
-│  ├─ pb-tourist-section-youre-in-good-hands
-│  ├─ pb-tourist-section-21
-
-├─ transit.html
-│  ├─ pb-transit-form-transit-through-brazil-with-the-transit-visa
-│  ├─ pb-transit-list-quick-facts
-│  ├─ pb-transit-list-common-challenges-applicants-face
-│  ├─ pb-transit-list-how-we-solve-these-challenges
-│  ├─ pb-transit-section-visa-overview
-│  ├─ pb-transit-form-who-is-this-visa-for
-│  ├─ pb-transit-list-required-documents
-│  ├─ pb-transit-list-application-process
-│  ├─ pb-transit-section-timelines-deadlines
-│  ├─ pb-transit-section-fees-costs
-│  ├─ pb-transit-list-risks-common-mistakes
-│  ├─ pb-transit-section-diy-vs-professional-assistance
-│  ├─ pb-transit-section-paraba-specific-context
-│  ├─ pb-transit-section-what-our-clients-say
-│  ├─ pb-transit-section-frequently-asked-questions
-│  ├─ pb-transit-section-international-support
-│  ├─ application-form
-│  ├─ pb-transit-list-our-credentials
-│  ├─ pb-transit-list-related-services
-│  ├─ pb-transit-section-youre-in-good-hands
-│  ├─ pb-transit-section-21
-
-├─ student.html
-│  ├─ pb-student-form-study-in-brazil-with-the-student-visa
-│  ├─ pb-student-list-quick-facts
-│  ├─ pb-student-list-common-challenges-applicants-face
-│  ├─ pb-student-list-how-we-solve-these-challenges
-│  ├─ pb-student-section-visa-overview
-│  ├─ pb-student-form-who-is-this-visa-for
-│  ├─ pb-student-list-required-documents
-│  ├─ pb-student-list-application-process
-│  ├─ pb-student-section-timelines-deadlines
-│  ├─ pb-student-section-fees-costs
-│  ├─ pb-student-list-risks-common-mistakes
-│  ├─ pb-student-section-diy-vs-professional-assistance
-│  ├─ pb-student-section-paraba-specific-context
-│  ├─ pb-student-section-what-our-clients-say
-│  ├─ pb-student-section-frequently-asked-questions
-│  ├─ pb-student-section-international-support
-│  ├─ application-form
-│  ├─ pb-student-list-our-credentials
-│  ├─ pb-student-list-related-services
-│  ├─ pb-student-section-youre-in-good-hands
-│  ├─ pb-student-section-21
-
-├─ business.html
-│  ├─ pb-business-form-conduct-business-in-brazil-with-the-business-visa
-│  ├─ pb-business-list-quick-facts
-│  ├─ pb-business-list-common-challenges-applicants-face
-│  ├─ pb-business-list-how-we-solve-these-challenges
-│  ├─ pb-business-section-visa-overview
-│  ├─ pb-business-form-who-is-this-visa-for
-│  ├─ pb-business-list-required-documents
-│  ├─ pb-business-list-application-process
-│  ├─ pb-business-section-timelines-deadlines
-│  ├─ pb-business-section-fees-costs
-│  ├─ pb-business-list-risks-common-mistakes
-│  ├─ pb-business-section-diy-vs-professional-assistance
-│  ├─ pb-business-section-paraba-specific-context
-│  ├─ pb-business-section-what-our-clients-say
-│  ├─ pb-business-section-frequently-asked-questions
-│  ├─ pb-business-section-international-support
-│  ├─ application-form
-│  ├─ pb-business-list-our-credentials
-│  ├─ pb-business-list-related-services
-│  ├─ pb-business-section-youre-in-good-hands
-│  ├─ pb-business-section-21
-
-├─ research.html
-│  ├─ pb-research-form-conduct-research-in-brazil-with-the-research-visa
-│  ├─ pb-research-list-quick-facts
-│  ├─ pb-research-list-common-challenges-applicants-face
-│  ├─ pb-research-list-how-we-solve-these-challenges
-│  ├─ pb-research-section-visa-overview
-│  ├─ pb-research-form-who-is-this-visa-for
-│  ├─ pb-research-list-required-documents
-│  ├─ pb-research-list-application-process
-│  ├─ pb-research-section-timelines-deadlines
-│  ├─ pb-research-section-fees-costs
-│  ├─ pb-research-list-risks-common-mistakes
-│  ├─ pb-research-section-diy-vs-professional-assistance
-│  ├─ pb-research-section-paraba-specific-context
-│  ├─ pb-research-section-what-our-clients-say
-│  ├─ pb-research-section-frequently-asked-questions
-│  ├─ pb-research-section-international-support
-│  ├─ application-form
-│  ├─ pb-research-list-our-credentials
-│  ├─ pb-research-list-related-services
-│  ├─ pb-research-section-youre-in-good-hands
-│  ├─ pb-research-section-21
-
-├─ diplomatic.html
-│  ├─ pb-diplomatic-form-official-diplomatic-visa-for-brazil-missions
-│  ├─ pb-diplomatic-list-quick-facts
-│  ├─ pb-diplomatic-list-common-challenges-applicants-face
-│  ├─ pb-diplomatic-list-how-we-solve-these-challenges
-│  ├─ pb-diplomatic-section-visa-overview
-│  ├─ pb-diplomatic-form-who-is-this-visa-for
-│  ├─ pb-diplomatic-list-required-documents
-│  ├─ pb-diplomatic-list-application-process
-│  ├─ pb-diplomatic-section-timelines-deadlines
-│  ├─ pb-diplomatic-section-fees-costs
-│  ├─ pb-diplomatic-list-risks-common-mistakes
-│  ├─ pb-diplomatic-section-diy-vs-professional-assistance
-│  ├─ pb-diplomatic-section-paraba-specific-context
-│  ├─ pb-diplomatic-section-what-our-clients-say
-│  ├─ pb-diplomatic-section-frequently-asked-questions
-│  ├─ pb-diplomatic-section-international-support
-│  ├─ application-form
-│  ├─ pb-diplomatic-list-our-credentials
-│  ├─ pb-diplomatic-list-related-services
-│  ├─ pb-diplomatic-section-youre-in-good-hands
-│  ├─ pb-diplomatic-section-21
-
-├─ journalist.html
-│  ├─ pb-journalist-form-cover-news-in-brazil-with-the-journalist-visa
-│  ├─ pb-journalist-list-quick-facts
-│  ├─ pb-journalist-list-common-challenges-applicants-face
-│  ├─ pb-journalist-list-how-we-solve-these-challenges
-│  ├─ pb-journalist-section-visa-overview
-│  ├─ pb-journalist-form-who-is-this-visa-for
-│  ├─ pb-journalist-list-required-documents
-│  ├─ pb-journalist-list-application-process
-│  ├─ pb-journalist-section-timelines-deadlines
-│  ├─ pb-journalist-section-fees-costs
-│  ├─ pb-journalist-list-risks-common-mistakes
-│  ├─ pb-journalist-section-diy-vs-professional-assistance
-│  ├─ pb-journalist-section-paraba-specific-context
-│  ├─ pb-journalist-section-what-our-clients-say
-│  ├─ pb-journalist-section-frequently-asked-questions
-│  ├─ pb-journalist-section-international-support
-│  ├─ application-form
-│  ├─ pb-journalist-list-our-credentials
-│  ├─ pb-journalist-list-related-services
-│  ├─ pb-journalist-section-youre-in-good-hands
-│  ├─ pb-journalist-section-21
-
-├─ fines.html
-│  ├─ pb-fines-form-resolve-immigration-fines-in-brazil
-│  ├─ pb-fines-list-quick-facts
-│  ├─ pb-fines-list-common-challenges-applicants-face
-│  ├─ pb-fines-list-how-we-solve-these-challenges
-│  ├─ pb-fines-section-service-overview
-│  ├─ pb-fines-form-who-is-this-service-for
-│  ├─ pb-fines-list-required-documents
-│  ├─ pb-fines-list-process
-│  ├─ pb-fines-section-timelines-deadlines
-│  ├─ pb-fines-section-fees-costs
-│  ├─ pb-fines-list-risks-common-mistakes
-│  ├─ pb-fines-section-diy-vs-professional-assistance
-│  ├─ pb-fines-section-paraba-specific-context
-│  ├─ pb-fines-section-what-our-clients-say
-│  ├─ pb-fines-section-frequently-asked-questions
-│  ├─ pb-fines-section-international-support
-│  ├─ application-form
-│  ├─ pb-fines-list-our-credentials
-│  ├─ pb-fines-list-related-services
-│  ├─ pb-fines-section-youre-in-good-hands
-│  ├─ pb-fines-section-21
-
-├─ deportation.html
-│  ├─ pb-deportation-form-deportation-assistance-in-brazil
-│  ├─ pb-deportation-list-quick-facts
-│  ├─ pb-deportation-list-common-challenges-applicants-face
-│  ├─ pb-deportation-list-how-we-solve-these-challenges
-│  ├─ pb-deportation-section-service-overview
-│  ├─ pb-deportation-form-who-is-this-service-for
-│  ├─ pb-deportation-list-required-documents
-│  ├─ pb-deportation-list-process
-│  ├─ pb-deportation-section-timelines-deadlines
-│  ├─ pb-deportation-section-fees-costs
-│  ├─ pb-deportation-list-risks-common-mistakes
-│  ├─ pb-deportation-section-diy-vs-professional-assistance
-│  ├─ pb-deportation-section-paraba-specific-context
-│  ├─ pb-deportation-section-what-our-clients-say
-│  ├─ pb-deportation-section-frequently-asked-questions
-│  ├─ pb-deportation-section-international-support
-│  ├─ application-form
-│  ├─ pb-deportation-list-our-credentials
-│  ├─ pb-deportation-list-related-services
-│  ├─ pb-deportation-section-youre-in-good-hands
-│  ├─ pb-deportation-section-21
-
-├─ translation.html
-│  ├─ pb-translation-form-sworn-document-translation-services-in-brazil
-│  ├─ pb-translation-list-quick-facts
-│  ├─ pb-translation-list-common-challenges-applicants-face
-│  ├─ pb-translation-list-how-we-solve-these-challenges
-│  ├─ pb-translation-section-service-overview
-│  ├─ pb-translation-form-who-is-this-service-for
-│  ├─ pb-translation-list-required-documents
-│  ├─ pb-translation-list-process
-│  ├─ pb-translation-section-timelines-deadlines
-│  ├─ pb-translation-section-fees-costs
-│  ├─ pb-translation-list-risks-common-mistakes
-│  ├─ pb-translation-section-diy-vs-professional-assistance
-│  ├─ pb-translation-section-paraba-specific-context
-│  ├─ pb-translation-section-what-our-clients-say
-│  ├─ pb-translation-section-frequently-asked-questions
-│  ├─ pb-translation-section-international-support
-│  ├─ application-form
-│  ├─ pb-translation-list-our-credentials
-│  ├─ pb-translation-list-related-services
-│  ├─ pb-translation-section-youre-in-good-hands
-│  ├─ pb-translation-section-21
-
-├─ expulsion.html
-│  ├─ pb-expulsion-form-expulsion-assistance-in-brazil
-│  ├─ pb-expulsion-list-quick-facts
-│  ├─ pb-expulsion-list-common-challenges-applicants-face
-│  ├─ pb-expulsion-list-how-we-solve-these-challenges
-│  ├─ pb-expulsion-section-service-overview
-│  ├─ pb-expulsion-form-who-is-this-service-for
-│  ├─ pb-expulsion-list-required-documents
-│  ├─ pb-expulsion-list-process
-│  ├─ pb-expulsion-section-timelines-deadlines
-│  ├─ pb-expulsion-section-fees-costs
-│  ├─ pb-expulsion-list-risks-common-mistakes
-│  ├─ pb-expulsion-section-diy-vs-professional-assistance
-│  ├─ pb-expulsion-section-paraba-specific-context
-│  ├─ pb-expulsion-section-what-our-clients-say
-│  ├─ pb-expulsion-section-frequently-asked-questions
-│  ├─ pb-expulsion-section-international-support
-│  ├─ application-form
-│  ├─ pb-expulsion-list-our-credentials
-│  ├─ pb-expulsion-list-related-services
-│  ├─ pb-expulsion-section-youre-in-good-hands
-│  ├─ pb-expulsion-section-21
-
-├─ appeals.html
-│  ├─ pb-appeals-form-appeal-immigration-denials-in-brazil
-│  ├─ pb-appeals-list-quick-facts
-│  ├─ pb-appeals-list-common-challenges-applicants-face
-│  ├─ pb-appeals-list-how-we-solve-these-challenges
-│  ├─ pb-appeals-section-service-overview
-│  ├─ pb-appeals-form-who-is-this-service-for
-│  ├─ pb-appeals-list-required-documents
-│  ├─ pb-appeals-list-appeal-process
-│  ├─ pb-appeals-section-timelines-deadlines
-│  ├─ pb-appeals-section-fees-costs
-│  ├─ pb-appeals-list-risks-common-mistakes
-│  ├─ pb-appeals-section-diy-vs-professional-assistance
-│  ├─ pb-appeals-section-paraba-specific-context
-│  ├─ pb-appeals-section-what-our-clients-say
-│  ├─ pb-appeals-section-frequently-asked-questions
-│  ├─ pb-appeals-section-international-support
-│  ├─ application-form
-│  ├─ pb-appeals-list-our-credentials
-│  ├─ pb-appeals-list-related-services
-│  ├─ pb-appeals-section-youre-in-good-hands
-│  ├─ pb-appeals-section-21
-
-├─ consular.html
-│  ├─ pb-consular-form-consular-services-in-brazil-for-citizens
-│  ├─ pb-consular-list-quick-facts
-│  ├─ pb-consular-list-common-challenges-applicants-face
-│  ├─ pb-consular-list-how-we-solve-these-challenges
-│  ├─ pb-consular-section-service-overview
-│  ├─ pb-consular-form-who-is-this-service-for
-│  ├─ pb-consular-list-required-documents
-│  ├─ pb-consular-list-process
-│  ├─ pb-consular-section-timelines-deadlines
-│  ├─ pb-consular-section-fees-costs
-│  ├─ pb-consular-list-risks-common-mistakes
-│  ├─ pb-consular-section-diy-vs-professional-assistance
-│  ├─ pb-consular-section-paraba-specific-context
-│  ├─ pb-consular-section-what-our-clients-say
-│  ├─ pb-consular-section-frequently-asked-questions
-│  ├─ pb-consular-section-international-support
-│  ├─ application-form
-│  ├─ pb-consular-list-our-credentials
-│  ├─ pb-consular-list-related-services
-│  ├─ pb-consular-section-youre-in-good-hands
-│  ├─ pb-consular-section-21
-
-├─ criminal-records.html
-│  ├─ pb-criminalrecords-form-obtain-criminal-records-certificate-in-brazil
-│  ├─ pb-criminalrecords-list-quick-facts
-│  ├─ pb-criminalrecords-list-common-challenges-applicants-face
-│  ├─ pb-criminalrecords-list-how-we-solve-these-challenges
-│  ├─ pb-criminalrecords-section-service-overview
-│  ├─ pb-criminalrecords-form-who-is-this-service-for
-│  ├─ pb-criminalrecords-list-required-documents
-│  ├─ pb-criminalrecords-list-process
-│  ├─ pb-criminalrecords-section-timelines-deadlines
-│  ├─ pb-criminalrecords-section-fees-costs
-│  ├─ pb-criminalrecords-list-risks-common-mistakes
-│  ├─ pb-criminalrecords-section-diy-vs-professional-assistance
-│  ├─ pb-criminalrecords-section-paraba-specific-context
-│  ├─ pb-criminalrecords-section-what-our-clients-say
-│  ├─ pb-criminalrecords-section-frequently-asked-questions
-│  ├─ pb-criminalrecords-section-international-support
-│  ├─ application-form
-│  ├─ pb-criminalrecords-list-our-credentials
-│  ├─ pb-criminalrecords-list-related-services
-│  ├─ pb-criminalrecords-section-youre-in-good-hands
-│  ├─ pb-criminalrecords-section-21
-
-├─ extradition.html
-│  ├─ pb-extradition-form-extradition-assistance-in-brazil
-│  ├─ pb-extradition-list-quick-facts
-│  ├─ pb-extradition-list-common-challenges-applicants-face
-│  ├─ pb-extradition-list-how-we-solve-these-challenges
-│  ├─ pb-extradition-section-service-overview
-│  ├─ pb-extradition-form-who-is-this-service-for
-│  ├─ pb-extradition-list-required-documents
-│  ├─ pb-extradition-list-process
-│  ├─ pb-extradition-section-timelines-deadlines
-│  ├─ pb-extradition-section-fees-costs
-│  ├─ pb-extradition-list-risks-common-mistakes
-│  ├─ pb-extradition-section-diy-vs-professional-assistance
-│  ├─ pb-extradition-section-paraba-specific-context
-│  ├─ pb-extradition-section-what-our-clients-say
-│  ├─ pb-extradition-section-frequently-asked-questions
-│  ├─ pb-extradition-section-international-support
-│  ├─ application-form
-│  ├─ pb-extradition-list-our-credentials
-│  ├─ pb-extradition-list-related-services
-│  ├─ pb-extradition-section-youre-in-good-hands
-│  ├─ pb-extradition-section-21
-
-├─ north.html
-│  ├─ pb-north-form-discover-the-north-amazon-and-beyond
-│  ├─ pb-north-list-quick-facts
-│  ├─ pb-north-list-common-challenges-applicants-face
-│  ├─ pb-north-list-how-we-solve-these-challenges
-│  ├─ pb-north-section-trip-overview
-│  ├─ pb-north-form-who-is-this-trip-for
-│  ├─ pb-north-list-required-documents
-│  ├─ pb-north-list-booking-process
-│  ├─ pb-north-section-timelines-deadlines
-│  ├─ pb-north-section-fees-costs
-│  ├─ pb-north-list-risks-common-mistakes
-│  ├─ pb-north-section-diy-vs-professional-assistance
-│  ├─ pb-north-section-paraba-specific-context
-│  ├─ pb-north-section-what-our-clients-say
-│  ├─ pb-north-section-frequently-asked-questions
-│  ├─ pb-north-section-international-support
-│  ├─ application-form
-│  ├─ pb-north-list-our-credentials
-│  ├─ pb-north-list-related-services
-│  ├─ pb-north-section-youre-in-good-hands
-│  ├─ pb-north-section-21
+├─ mobile-nav.html
+│  ├─ mobile-nav
 
 ├─ central-west.html
-│  ├─ pb-centralwest-form-wild-centralwest-pantanal-and-cerrado
-│  ├─ pb-centralwest-list-quick-facts
-│  ├─ pb-centralwest-list-common-challenges-applicants-face
-│  ├─ pb-centralwest-list-how-we-solve-these-challenges
-│  ├─ pb-centralwest-section-trip-overview
-│  ├─ pb-centralwest-form-who-is-this-trip-for
-│  ├─ pb-centralwest-list-required-documents
-│  ├─ pb-centralwest-list-booking-process
-│  ├─ pb-centralwest-section-timelines-deadlines
-│  ├─ pb-centralwest-section-fees-costs
-│  ├─ pb-centralwest-list-risks-common-mistakes
-│  ├─ pb-centralwest-section-diy-vs-professional-assistance
-│  ├─ pb-centralwest-section-paraba-specific-context
-│  ├─ pb-centralwest-section-what-our-clients-say
-│  ├─ pb-centralwest-section-frequently-asked-questions
-│  ├─ pb-centralwest-section-international-support
-│  ├─ application-form
-│  ├─ pb-centralwest-list-our-credentials
-│  ├─ pb-centralwest-list-related-services
-│  ├─ pb-centralwest-section-youre-in-good-hands
-│  ├─ pb-centralwest-section-21
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
 
-├─ southeast.html
-│  ├─ pb-southeast-form-dynamic-southeast-cities-and-history
-│  ├─ pb-southeast-list-quick-facts
-│  ├─ pb-southeast-list-common-challenges-applicants-face
-│  ├─ pb-southeast-list-how-we-solve-these-challenges
-│  ├─ pb-southeast-section-trip-overview
-│  ├─ pb-southeast-form-who-is-this-trip-for
-│  ├─ pb-southeast-list-required-documents
-│  ├─ pb-southeast-list-booking-process
-│  ├─ pb-southeast-section-timelines-deadlines
-│  ├─ pb-southeast-section-fees-costs
-│  ├─ pb-southeast-list-risks-common-mistakes
-│  ├─ pb-southeast-section-diy-vs-professional-assistance
-│  ├─ pb-southeast-section-paraba-specific-context
-│  ├─ pb-southeast-section-what-our-clients-say
-│  ├─ pb-southeast-section-frequently-asked-questions
-│  ├─ pb-southeast-section-international-support
-│  ├─ application-form
-│  ├─ pb-southeast-list-our-credentials
-│  ├─ pb-southeast-list-related-services
-│  ├─ pb-southeast-section-youre-in-good-hands
-│  ├─ pb-southeast-section-21
+├─ north.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
 
 ├─ northeast.html
-│  ├─ pb-northeast-form-vibrant-northeast-beaches-and-culture
-│  ├─ pb-northeast-list-quick-facts
-│  ├─ pb-northeast-list-common-challenges-applicants-face
-│  ├─ pb-northeast-list-how-we-solve-these-challenges
-│  ├─ pb-northeast-section-trip-overview
-│  ├─ pb-northeast-form-who-is-this-trip-for
-│  ├─ pb-northeast-list-required-documents
-│  ├─ pb-northeast-list-booking-process
-│  ├─ pb-northeast-section-timelines-deadlines
-│  ├─ pb-northeast-section-fees-costs
-│  ├─ pb-northeast-list-risks-common-mistakes
-│  ├─ pb-northeast-section-diy-vs-professional-assistance
-│  ├─ pb-northeast-section-paraba-specific-context
-│  ├─ pb-northeast-section-what-our-clients-say
-│  ├─ pb-northeast-section-frequently-asked-questions
-│  ├─ pb-northeast-section-international-support
-│  ├─ application-form
-│  ├─ pb-northeast-list-our-credentials
-│  ├─ pb-northeast-list-related-services
-│  ├─ pb-northeast-section-youre-in-good-hands
-│  ├─ pb-northeast-section-21
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
 
 ├─ south.html
-│  ├─ pb-south-form-charming-south-wine-and-gauchos
-│  ├─ pb-south-list-quick-facts
-│  ├─ pb-south-list-common-challenges-applicants-face
-│  ├─ pb-south-list-how-we-solve-these-challenges
-│  ├─ pb-south-section-trip-overview
-│  ├─ pb-south-form-who-is-this-trip-for
-│  ├─ pb-south-list-required-documents
-│  ├─ pb-south-list-booking-process
-│  ├─ pb-south-section-timelines-deadlines
-│  ├─ pb-south-section-fees-costs
-│  ├─ pb-south-list-risks-common-mistakes
-│  ├─ pb-south-section-diy-vs-professional-assistance
-│  ├─ pb-south-section-paraba-specific-context
-│  ├─ pb-south-section-what-our-clients-say
-│  ├─ pb-south-section-frequently-asked-questions
-│  ├─ pb-south-section-international-support
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ southeast.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ derivative.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ extraordinary.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ ordinary.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ provisional.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ reacquisition-citizenship.html
+│  ├─ hero-heading
 │  ├─ application-form
-│  ├─ pb-south-list-our-credentials
-│  ├─ pb-south-list-related-services
-│  ├─ pb-south-section-youre-in-good-hands
-│  ├─ pb-south-section-21
+
+├─ reacquisition.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ renouncing-citizenship.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ special.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ apostille.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ appeals.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ authentication.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ company-formation.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ consular.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ consultation.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ cpf.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ criminal-records.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ deportation.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ expulsion.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ extradition.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ fines.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ power-of-attorney.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ rne.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ translation.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ cplp.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ crnm.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ digital-nomad.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ educational-exchange.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ family-reunion.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ health-treatment.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ humanitarian.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ investment.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ investor.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ marriage.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ mercosul.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ permanent.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ religious.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ researcher.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ retiree.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ scientific-research.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ skilled-worker.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ startup.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ study.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ temporary.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ volunteer.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ work-mercosur.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ work.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ youth-exchange.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ artist.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ artistic.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ business.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ crew.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ cultural.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ dependent.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ digital-nomad.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ diplomatic.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ educational-exchange.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ family.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ humanitarian.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ investor.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ journalist.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ medical.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ missionary.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ official.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ religious.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ research.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ retiree.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ sports.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ startup.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ student.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ technical.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ tourist.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ transit.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ volunteer.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ work-mercosur.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ work.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
